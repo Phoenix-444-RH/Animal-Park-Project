@@ -1,0 +1,8 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#fff5e7"/>
+  <path d="M170 320 C260 250, 330 240, 420 285 S560 370, 640 300" fill="none" stroke="#1c4a2e" stroke-width="16" stroke-linecap="round"/>
+  <path d="M640 300 L710 240" fill="none" stroke="#f3c677" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="705" cy="235" r="24" fill="#f3c677"/>
+  <text x="78" y="96" fill="#6f5200" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Feather Chase Wand</text>
+  <text x="78" y="141" fill="#8a6b1a" font-family="Arial, Helvetica, sans-serif" font-size="24">Interactive teaser wand for quick indoor play sessions</text>
+</svg>

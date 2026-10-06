@@ -1,0 +1,9 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#eef7ff"/>
+  <rect x="170" y="170" width="460" height="260" rx="42" fill="#ffffff"/>
+  <path d="M250 315 330 245 430 275 520 220 590 300" fill="none" stroke="#1c4a2e" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="215" y="205" width="120" height="34" rx="17" fill="#d7efe3"/>
+  <rect x="475" y="195" width="120" height="34" rx="17" fill="#ffe8b4"/>
+  <text x="76" y="96" fill="#1c4a2e" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Reflective Dog Harness</text>
+  <text x="76" y="141" fill="#51606d" font-family="Arial, Helvetica, sans-serif" font-size="24">Secure, padded walking support with reflective trim</text>
+</svg>

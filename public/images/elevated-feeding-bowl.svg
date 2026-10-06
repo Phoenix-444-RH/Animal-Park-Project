@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f8f4ec"/>
+  <rect x="170" y="370" width="460" height="30" rx="15" fill="#6d4c2f"/>
+  <rect x="240" y="220" width="110" height="160" rx="30" fill="#ffffff" stroke="#d7c9b0" stroke-width="8"/>
+  <rect x="450" y="220" width="110" height="160" rx="30" fill="#ffffff" stroke="#d7c9b0" stroke-width="8"/>
+  <rect x="285" y="380" width="20" height="55" rx="10" fill="#6d4c2f"/>
+  <rect x="495" y="380" width="20" height="55" rx="10" fill="#6d4c2f"/>
+  <text x="78" y="96" fill="#6d4c2f" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Elevated Feeding Bowl</text>
+  <text x="78" y="141" fill="#8a6b52" font-family="Arial, Helvetica, sans-serif" font-size="24">Raised mealtime setup for better posture and comfort</text>
+</svg>

@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f3f7ff"/>
+  <rect x="180" y="165" width="440" height="270" rx="36" fill="#ffffff"/>
+  <rect x="235" y="215" width="330" height="170" rx="24" fill="#dce7f6"/>
+  <path d="M250 290 530 290" stroke="#8596ab" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="320" cy="290" r="24" fill="#1c4a2e"/>
+  <circle cx="400" cy="290" r="24" fill="#f3c677"/>
+  <circle cx="480" cy="290" r="24" fill="#7ca3d6"/>
+  <text x="78" y="96" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Premium Litter Pack</text>
+  <text x="78" y="141" fill="#66748a" font-family="Arial, Helvetica, sans-serif" font-size="24">Low-dust clumping litter with strong odor control</text>
+</svg>

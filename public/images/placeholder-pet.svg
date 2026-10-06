@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f2f4f7"/>
+  <circle cx="400" cy="250" r="110" fill="#d9e7d9"/>
+  <circle cx="350" cy="205" r="38" fill="#1c4a2e"/>
+  <circle cx="450" cy="205" r="38" fill="#1c4a2e"/>
+  <circle cx="400" cy="305" r="90" fill="#f3c677"/>
+  <text x="230" y="500" fill="#1c4a2e" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Animal Park</text>
+</svg>

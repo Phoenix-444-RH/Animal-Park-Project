@@ -1,0 +1,9 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#eef5ef"/>
+  <rect x="110" y="250" width="580" height="190" rx="95" fill="#1c4a2e"/>
+  <rect x="150" y="215" width="500" height="170" rx="85" fill="#f3c677"/>
+  <circle cx="250" cy="245" r="26" fill="#fff6dd"/>
+  <circle cx="550" cy="245" r="26" fill="#fff6dd"/>
+  <text x="70" y="90" fill="#1c4a2e" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Orthopedic Dog Bed</text>
+  <text x="70" y="135" fill="#546d4c" font-family="Arial, Helvetica, sans-serif" font-size="24">Pressure-relief comfort for senior dogs and daily naps</text>
+</svg>

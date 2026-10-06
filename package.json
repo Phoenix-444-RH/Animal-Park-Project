@@ -1,0 +1,43 @@
+{
+  "name": "animal-park-app",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"next dev\" \"nodemon server/index.js\"",
+    "build": "next build",
+    "start": "node server/index.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "axios": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.35.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "framer-motion": "^11.0.0",
+    "gsap": "^3.14.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.7.0",
+    "mongodb-memory-server": "^11.2.0",
+    "mongoose": "^7.6.0",
+    "next": "14.2.4",
+    "nodemailer": "^7.0.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "three": "^0.163.0",
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.4",
+    "postcss": "^8.4.37",
+    "tailwindcss": "^3.4.4"
+  }
+}

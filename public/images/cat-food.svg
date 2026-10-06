@@ -1,0 +1,9 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#fff6e2"/>
+  <rect x="230" y="170" width="340" height="290" rx="28" fill="#c8880a"/>
+  <rect x="260" y="205" width="280" height="220" rx="20" fill="#fff8ef"/>
+  <circle cx="400" cy="318" r="82" fill="#1c4a2e"/>
+  <path d="M350 265 370 215 400 255 430 215 450 265" fill="#f3c677"/>
+  <text x="80" y="96" fill="#6f5200" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Protein-Rich Cat Food</text>
+  <text x="80" y="141" fill="#8a6b1a" font-family="Arial, Helvetica, sans-serif" font-size="24">Balanced nutrition for indoor and active cats</text>
+</svg>

@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#eef2ff"/>
+  <rect x="150" y="180" width="500" height="260" rx="36" fill="#ffffff"/>
+  <rect x="200" y="230" width="120" height="160" rx="18" fill="#1c4a2e"/>
+  <rect x="350" y="210" width="50" height="190" rx="20" fill="#c8880a"/>
+  <rect x="430" y="220" width="40" height="180" rx="18" fill="#f3c677"/>
+  <circle cx="560" cy="310" r="68" fill="#d9e7d9"/>
+  <path d="M528 300 Q560 250 592 300 Q560 370 528 300" fill="#1c4a2e"/>
+  <text x="72" y="96" fill="#1c4a2e" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Luxury Grooming Kit</text>
+  <text x="72" y="141" fill="#51606d" font-family="Arial, Helvetica, sans-serif" font-size="24">Salon-quality brushes, combs, and coat-care tools</text>
+</svg>

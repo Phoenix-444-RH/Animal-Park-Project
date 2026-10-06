@@ -1,0 +1,233 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f8f5ef;
+  color: #0f172a;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.parallax {
+  position: relative;
+  padding: 0 1.5rem 8rem;
+}
+
+.parallax__header {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.parallax__visuals {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+  min-height: 92vh;
+  background:
+    radial-gradient(circle at top, rgba(248, 212, 138, 0.28), transparent 35%),
+    linear-gradient(180deg, #153825 0%, #1c4a2e 42%, #f8f5ef 100%);
+  box-shadow: 0 30px 80px rgba(20, 35, 28, 0.18);
+}
+
+.parallax__black-line-overflow {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,0.08) 0, rgba(255,255,255,0.08) 1px, transparent 1px, transparent 100%),
+    linear-gradient(180deg, rgba(255,255,255,0.06) 0, rgba(255,255,255,0.06) 1px, transparent 1px, transparent 100%);
+  background-size: 110px 110px;
+  opacity: 0.2;
+}
+
+.parallax__layers {
+  position: relative;
+  height: 92vh;
+}
+
+.parallax__layer-img {
+  position: absolute;
+  left: 50%;
+  width: min(78vw, 900px);
+  transform: translateX(-50%);
+  object-fit: cover;
+  border-radius: 1.75rem;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.18);
+}
+
+.parallax__layer-img[data-parallax-layer="1"] {
+  top: 10%;
+  width: min(70vw, 720px);
+  filter: saturate(1.05);
+}
+
+.parallax__layer-img[data-parallax-layer="2"] {
+  top: 22%;
+  width: min(52vw, 500px);
+  left: 28%;
+}
+
+.parallax__layer-img[data-parallax-layer="4"] {
+  bottom: 6%;
+  width: min(76vw, 820px);
+}
+
+.parallax__layer-title {
+  position: absolute;
+  top: 16%;
+  right: clamp(1.5rem, 7vw, 6rem);
+  z-index: 2;
+  max-width: 24rem;
+  color: white;
+}
+
+.parallax__title-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.parallax__title {
+  margin: 1.25rem 0 0;
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+  font-weight: 800;
+}
+
+.parallax__subtitle {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.parallax__fade {
+  position: absolute;
+  inset: auto 0 0;
+  height: 32%;
+  background: linear-gradient(180deg, rgba(248, 245, 239, 0) 0%, #f8f5ef 100%);
+}
+
+.parallax__content {
+  display: flex;
+  justify-content: center;
+  margin-top: -2rem;
+}
+
+.parallax__content-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 999px;
+  background: white;
+  color: #1c4a2e;
+  box-shadow: 0 16px 40px rgba(28, 74, 46, 0.14);
+}
+
+.osmo-credits {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem 4rem;
+}
+
+.osmo-credits__p {
+  border-radius: 999px;
+  background: white;
+  padding: 0.9rem 1.25rem;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .parallax {
+    padding-inline: 1rem;
+  }
+
+  .parallax__visuals,
+  .parallax__layers {
+    min-height: 72vh;
+    height: 72vh;
+  }
+
+  .parallax__layer-title {
+    top: 8%;
+    right: 1.25rem;
+    left: 1.25rem;
+    max-width: none;
+  }
+
+  .parallax__layer-img[data-parallax-layer="1"] {
+    top: 24%;
+    width: 86vw;
+  }
+
+  .parallax__layer-img[data-parallax-layer="2"] {
+    top: 36%;
+    left: 50%;
+    width: 72vw;
+  }
+
+  .parallax__layer-img[data-parallax-layer="4"] {
+    bottom: 10%;
+    width: 88vw;
+  }
+}
+
+
+.paws-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(108, 128, 148, 0.85) rgba(10, 18, 31, 0.78);
+}
+
+.paws-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.paws-scrollbar::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, rgba(9, 16, 28, 0.95) 0%, rgba(13, 24, 41, 0.92) 100%);
+  border-radius: 999px;
+}
+
+.paws-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(120, 148, 170, 0.95) 0%, rgba(82, 108, 130, 0.95) 100%);
+  border: 2px solid rgba(10, 18, 31, 0.92);
+  border-radius: 999px;
+}
+
+.paws-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(136, 223, 209, 0.92) 0%, rgba(86, 181, 192, 0.92) 100%);
+}
+
+.paws-scrollbar::-webkit-scrollbar-corner {
+  background: rgba(9, 16, 28, 0.95);
+}

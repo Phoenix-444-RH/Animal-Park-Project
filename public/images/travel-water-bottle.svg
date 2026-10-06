@@ -1,0 +1,9 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#eef8f2"/>
+  <rect x="270" y="140" width="170" height="290" rx="60" fill="#1c4a2e"/>
+  <rect x="325" y="100" width="58" height="70" rx="18" fill="#f3c677"/>
+  <path d="M440 255 545 255 575 290 440 290" fill="#8de1c8"/>
+  <path d="M455 272 Q512 324 565 272" fill="#d7f5ee"/>
+  <text x="72" y="96" fill="#1c4a2e" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Travel Water Bottle</text>
+  <text x="72" y="141" fill="#546d4c" font-family="Arial, Helvetica, sans-serif" font-size="24">Portable hydration bottle for walks and road trips</text>
+</svg>
